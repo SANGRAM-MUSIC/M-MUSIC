@@ -800,11 +800,14 @@ def queue_markup(_, videoid, chat_id):
                 text=_["S_B_3"],
                 url=f"{SUPPORT_GROUP}"
             ),
-        ],
-        [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
-            )
+
+                text="》",
+
+                callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
         ],
     ]
     return buttons
